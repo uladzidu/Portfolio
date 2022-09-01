@@ -1,3 +1,17 @@
 .mainBlock {
+    height: 100vh;
+    background-color: #7fcceb;
+}
 
+.greetings {
+    width: 300px;
+    border: solid 1px;
+    background-color: lightblue;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border: solid 1px;
+    background-color: lightblue;
 }
