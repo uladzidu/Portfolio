@@ -1,13 +1,16 @@
 import React from 'react';
-import style from './Nav.module.css'
+import moduleStyles from './Nav.module.css'
 
-export const Nav = () => {
+const Nav = () => {
     return (
-        <div className={style.nav}>
+        <div className={moduleStyles.nav}>
             <a href="">Main</a>
             <a href="">Skills</a>
             <a href="">Projects</a>
             <a href="">Contacts</a>
+            <a href=""></a>
         </div>
     );
 };
+
+export default Nav;
