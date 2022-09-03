@@ -1,0 +1,24 @@
+.footerBlock {
+    height: 500px;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerContainer {
+    height: 50%;
+    flex-direction: column;
+}
+
+.divsBlock {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divElement {
+    width: 30px;
+    height: 30px;
+    border: solid 1px;
+}

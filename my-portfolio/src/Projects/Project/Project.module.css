@@ -1,0 +1,20 @@
+.project {
+    width: 200px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    word-break: break-all;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border: solid 1px;
+    background-color: lightsalmon;
+}
+
+.description {
+
+}

@@ -1,0 +1,17 @@
+.contactBlock {
+    height: 600px;
+    background-color: paleturquoise;
+    display: flex;
+    align-items: center;
+}
+
+.contactContainer {
+    height: 50%;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
