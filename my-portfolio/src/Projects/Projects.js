@@ -10,9 +10,8 @@ const Projects = () => {
             <div className={`${commonContainerStyle.commonContainer} ${moduleStyles.projectsContainer}`}>
                 <h2 className={moduleStyles.title}>Projects</h2>
                 <div className={moduleStyles.projects}>
-                    <Project title='Social Network' description='rwerqwrwqrerwqredddddddddddddddddd'/>
+                    <Project title='Social Network' description='werwrqwrwrrqrwq'/>
                     <Project title='Todolist' description='werwrqwrwrrqrwq'/>
-                    <Project title='Portfolio' description='wrwrwqrqrqrqwe'/>
                 </div>
             </div>
         </div>

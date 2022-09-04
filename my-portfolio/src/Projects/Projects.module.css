@@ -17,6 +17,6 @@
     width: 100%;
     border: solid 1px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }

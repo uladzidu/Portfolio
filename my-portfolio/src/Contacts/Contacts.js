@@ -7,7 +7,7 @@ const Contacts = () => {
     return (
         <div className={moduleStyles.contactBlock}>
             <div className={`${commonContainerStyle.commonContainer} ${moduleStyles.contactContainer}`}>
-            <div>Contacts</div>
+            <h2>Contacts</h2>
                 <form className={moduleStyles.form} action="">
                     <input type="text" placeholder={'<input>'}/>
                     <input type="text" placeholder={'<input>'}/>
