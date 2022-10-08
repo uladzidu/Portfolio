@@ -13,5 +13,11 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 50%;
+}
+
+@media screen and (max-width: 754px){
+    .form {
+        width: 100%
+    }
 }

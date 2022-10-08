@@ -8,7 +8,9 @@ const Projects = () => {
     return (
         <div className={moduleStyles.projectsBlock}>
             <div className={`${commonContainerStyle.commonContainer} ${moduleStyles.projectsContainer}`}>
-                <h2 className={moduleStyles.title}>Projects</h2>
+                <div className={moduleStyles.title}>
+                    <h2>Projects</h2>
+                </div>
                 <div className={moduleStyles.projects}>
                     <Project title='Social Network' description='werwrqwrwrrqrwq'/>
                     <Project title='Todolist' description='werwrqwrwrrqrwq'/>

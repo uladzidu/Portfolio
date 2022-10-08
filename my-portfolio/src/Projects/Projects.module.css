@@ -1,7 +1,7 @@
 .projectsBlock {
-    height: auto;
-    background-color: lightsteelblue;
+    background-color: #1f1f20;
     border: solid 1px;
+    padding: 100px 0;
 }
 
 .projectsContainer {
@@ -9,14 +9,47 @@
     border: solid 1px;
     justify-content: center;
 }
+
 .title {
     border: solid 1px;
-    background-color: beige;
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
 }
+
+.title h2 {
+    margin: 0;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .projects {
     width: 100%;
     border: solid 1px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+@media screen and (max-width: 754px) {
+    .projects {
+        justify-content: center;
+    }
 }
