@@ -1,19 +1,28 @@
 import React from 'react';
-import moduleStyles from './Projects.module.css'
+import moduleStyles from './Projects.module.scss'
 import commonContainerStyle from '../commonFiles/commonStyles/commonContainer.module.css'
-import Project from "./Project/Project";
+import Project from './Project/Project';
+import Title from '../commonFiles/components/title/Title';
+import todoImage from './../assets/image/istockphoto-1330040188-170667a.jpg'
+import socialImage from './../assets/image/social-media-network_74855-4575.jpg'
 
 
 const Projects = () => {
+
+    const social = {
+        backgroundImage: `url(${todoImage})`,
+    }
+    const todo = {
+        backgroundImage: `url(${socialImage})`,
+    }
+
     return (
         <div className={moduleStyles.projectsBlock}>
             <div className={`${commonContainerStyle.commonContainer} ${moduleStyles.projectsContainer}`}>
-                <div className={moduleStyles.title}>
-                    <h2>Projects</h2>
-                </div>
+                <Title text='Projects'/>
                 <div className={moduleStyles.projects}>
-                    <Project title='Social Network' description='werwrqwrwrrqrwq'/>
-                    <Project title='Todolist' description='werwrqwrwrrqrwq'/>
+                    <Project style = {todo} title='Social Network' description='werwrqwrwrrqadsadsadadadasdasrwq'/>
+                    <Project style = {social} title='Todolist' description='werwrqwrwrrqrwq'/>
                 </div>
             </div>
         </div>
