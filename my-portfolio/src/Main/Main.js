@@ -1,6 +1,7 @@
 import React from 'react';
-import moduleStyles from './Main.module.css'
+import moduleStyles from './Main.module.scss'
 import commonContainerStyle from '../commonFiles/commonStyles/commonContainer.module.css'
+import profilePhoto from '../assets/image/photo_2021-07-12_20-06-50.jpg'
 
 const Main = () => {
     return (
@@ -12,7 +13,7 @@ const Main = () => {
                     <p>Fronted Developer</p>
                 </div>
                 <div className={moduleStyles.photo}>
-                    <img src="" alt=""/>
+                    <img src={profilePhoto} alt="profilePhoto"/>
                 </div>
             </div>
         </div>
