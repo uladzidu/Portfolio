@@ -13,6 +13,7 @@ const Projects = () => {
         backgroundImage: `url(${todoImage})`,
     }
 
+
     const todo = {
         backgroundImage: `url(${socialImage})`,
     }
