@@ -4,6 +4,7 @@ import commonContainerStyle from '../commonFiles/commonStyles/commonContainer.mo
 import profilePhoto from '../assets/image/photo_2021-07-12_20-06-50.jpg'
 
 const Main = () => {
+
     return (
         <div className={moduleStyles.mainBlock}>
             <div className={commonContainerStyle.commonContainer}>
